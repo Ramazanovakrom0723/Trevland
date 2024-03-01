@@ -1,0 +1,43 @@
+@import url(../nav/nav.css);
+@import url(../main/main.css);
+@import url(../article/article.css);
+@import url(../section/section.css);
+@import url(../footer/footer.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+button {
+  border: none;
+  background-color: #C9453B;
+  color: #fff;
+  border-radius: 4px;
+}
+
+@media (max-width: 448px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (min-width: 449px) and (max-width: 720px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 721px) and (max-width: 1200px) {
+  .container {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}/*# sourceMappingURL=global.css.map */

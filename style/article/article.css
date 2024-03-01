@@ -1,0 +1,70 @@
+article {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+article .article_top-text {
+  width: 36%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+}
+article .article_top-text h2 {
+  font-size: 43px;
+}
+article .article_top-text p {
+  opacity: 0.6;
+}
+article .article-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+article .article-boxes p {
+  opacity: 0.6;
+}
+article .article-boxes .article_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+article .article-boxes .article_box-text {
+  display: flex;
+  gap: 80px;
+}
+article .article-boxes .article_box-text .article_box-text-left {
+  display: flex;
+}
+article .article-boxes .article_box-text .article_box-text-right {
+  display: flex;
+}
+article .article-boxes .article_box-text-button {
+  display: flex;
+}
+article .article_button {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+article .article_button .button-center {
+  display: flex;
+  gap: 2px;
+}
+article .article_button .div1 {
+  width: 65px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: rgba(201, 69, 59, 0.1019607843);
+}
+article .article_button .div2 {
+  width: 65px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #C9453B;
+}/*# sourceMappingURL=article.css.map */

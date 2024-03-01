@@ -1,0 +1,52 @@
+.section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 150px;
+}
+.section p {
+  opacity: 0.6;
+}
+.section .section-top-text {
+  width: 48%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section .section-top-text h2 {
+  font-size: 43px;
+}
+.section .section-boxes {
+  display: flex;
+  gap: 32px;
+}
+.section .section-boxes .section-box-left {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.section .section-boxes-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section .section-boxes-right .section-box-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.section .section-boxes-right .section-box-right img {
+  width: 293px;
+  height: 154px;
+}
+.section .section-boxes-right .section-box-right-text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}/*# sourceMappingURL=section.css.map */
